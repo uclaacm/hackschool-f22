@@ -50,9 +50,9 @@ function App() {
           <li>chocolate lava cake</li>
         </ol>
       </div>
-  
-    {/* Camera Roll */}
-    <div>
+
+      {/* Camera Roll */}
+      <div>
         <h2>My Camera Roll</h2>
         <div>
           <div>

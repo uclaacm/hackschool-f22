@@ -4,7 +4,8 @@ import bball from "./assets/bball.jpg";
 import hack from "./assets/hack.jpg";
 import bear from "./assets/bear.jpg";
 import React from 'react';
-import Garden from './components/Garden';
+import Garden from "./components/Garden";
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <h1>Joe Bruin</h1>
       </div>
       <div id="intro">
-        <div style={{ display: "flex", flexDirection: "center" }}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           {" "}
           <img width="200px" src={joebruin} alt="logo" />{" "}
         </div>
@@ -87,8 +88,9 @@ function App() {
         </div>
       </div>
       <div className="section">
-        <Garden owner={"Joe Bruin"} />
+        <Garden owner="Joe Bruin" />
       </div>
+
     </div>
   );
 }

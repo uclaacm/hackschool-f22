@@ -11,7 +11,7 @@ function App() {
         <h1>Joe Bruin</h1>
       </div>
       <div id="intro">
-        <div style={{ display: "flex", flexDirection: "center" }}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
           {" "}
           <img width="200px" src={joebruin} alt="logo" />{" "}
         </div>

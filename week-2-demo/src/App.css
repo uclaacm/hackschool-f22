@@ -22,7 +22,9 @@
 #navigation {
   background-color: #2774ae;
   color: white;
+  font-family: Poppins;
   font-size: 80px;
+  font-weight: 50px;
   border-radius: 20px;
   text-align: center;
 }
@@ -32,13 +34,6 @@
   border-radius: 20px;
   padding: 20px;
   margin: 20px;
-}
-
-h1 {
-  color: white;
-  font-family: Poppins;
-  font-weight: 50px;
-  font-size: 80px;
 }
 
 img {
