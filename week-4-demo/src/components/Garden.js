@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Plant from './Plant';
 import './Garden.css';
 // npm install @mui/material @emotion/react @emotion/styled

@@ -5,12 +5,16 @@ import Garden from './components/Garden';
 import ExperienceList from "./components/ExperienceList";
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
+
+// npm install react-router-dom
 import {
   BrowserRouter as Router,
   Routes,
   Route,
   Link
 } from "react-router-dom";
+
+
 function App() {
   return (
     <Router>
@@ -30,11 +34,6 @@ function App() {
           <Route path="/experience" element={<ExperienceList />} />
           <Route path="/garden" element={<Garden owner={"Joe Bruin"} />} />
         </Routes>
-        {/* <Home />
-        <AboutMe />
-
-        <Garden owner={"Joe Bruin"} />
-        <ExperienceList /> */}
       </div>
     </Router>
     

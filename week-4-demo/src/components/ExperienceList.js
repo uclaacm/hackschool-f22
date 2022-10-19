@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Experience from './Experience';
-// npm install @mui/material @emotion/react @emotion/styled
 
 const experiences = [
+    {
+        name: "UCLA ACM",
+        start: "Nov 1996",
+        end: "Now",
+        title: "Owner",
+        description: "Shadow owner of the club ACM @ UCLA. I secretly control everything that ACM does behind the scenes. To me, all ACM officers are just puppets that I use to achieve my idealistic regime."
+    },
     { 
         name: "Badminton Club", 
         start: "Oct 2000",
