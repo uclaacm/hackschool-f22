@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './Experience.css';
 
 function Experience({ name, start, end, title, description }) {

@@ -9,7 +9,7 @@ function Home() {
                 {" "}
                 <img width="200px" src={joebruin} alt="logo" />{" "}
                 </div>
-                <p style={{ fontSize: "25px" }}>
+                <p>
                 Hi! My name is Joe Bruin and I am 38th year at UCLA.{" "}
                 <b>
                     More importantly, I'm a member of the greatest club,{" "}
