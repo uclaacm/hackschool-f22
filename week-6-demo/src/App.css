@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
 
 * {
   font-family: Poppins;
@@ -19,16 +19,7 @@
   border-radius: 20px;
 }
 
-/* #navigation {
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
-
-#color {
+#navigation {
   background-color: #2774ae;
   text-align: center;
   display: flex;
@@ -37,37 +28,6 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
-#colorabout {
-  background-color: red;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#colorexperience {
-  background-color: yellow;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#colorgarden {
-  background-color: green;
-  text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 
 #headerTitle {
   color: white;

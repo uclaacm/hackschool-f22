@@ -1,34 +1,42 @@
-import "./App.css";
+import './App.css';
 
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import Garden from './components/Garden';
-import ExperienceList from "./components/ExperienceList";
+import ExperienceList from './components/ExperienceList';
 import AboutMe from './components/AboutMe';
 import Home from './components/Home';
 
 // npm install react-router-dom
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  useLocation
-} from "react-router-dom";
-
+import { Routes, Route, Link, useLocation } from 'react-router-dom';
 
 function App() {
-  let location = useLocation();
-  const [navId, setNavId] = useState('color');
+  const colors = {
+    home: '#2774ae',
+    about: 'red',
+    experience: 'yellow',
+    garden: 'green',
+  };
+
+  const location = useLocation();
+  const [navColor, setNavColor] = useState(colors.home);
 
   useEffect(() => {
-    const str = 'color' + location.pathname.substring(1);
-    console.log(str);
-    setNavId(str);
+    let path = location.pathname.substring(1);
+
+    if (path == '') {
+      setNavColor(colors.home);
+    } else if (path == 'about') {
+      setNavColor(colors.about);
+    } else if (path == 'experience') {
+      setNavColor(colors.experience);
+    } else if (path == 'garden') {
+      setNavColor(colors.garden);
+    }
   }, [location]);
 
   return (
     <div>
-      <div id={navId}>
+      <div id='navigation' style={{ backgroundColor: navColor }}>
         <h1 id='headerTitle'>Joe Bruin</h1>
         <div>
           <Link to='/'>Home</Link>
