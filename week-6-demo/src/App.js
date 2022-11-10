@@ -22,16 +22,8 @@ function App() {
 
   useEffect(() => {
     let path = location.pathname.substring(1);
-
-    if (path == '') {
-      setNavColor(colors.home);
-    } else if (path == 'about') {
-      setNavColor(colors.about);
-    } else if (path == 'experience') {
-      setNavColor(colors.experience);
-    } else if (path == 'garden') {
-      setNavColor(colors.garden);
-    }
+    if(path === '') path = 'home';
+    setNavColor(colors[path]);
   }, [location]);
 
   return (
